@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Lato', sans-serif;
+
+  --color-primary: #722F37;
+  --color-primary-foreground: #FEFAE0;
+  --color-secondary: #606C38;
+  --color-secondary-foreground: #FEFAE0;
+  --color-accent: #DDA15E;
+  --color-accent-foreground: #2D2A26;
+  --color-background: #FEFAE0;
+  --color-foreground: #2D2A26;
+  --color-muted: #F5F0E1;
+  --color-muted-foreground: #5C5852;
+  --color-border: #E8E0CC;
+  --color-ring: #DDA15E;
+  --color-destructive: #B91C1C;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #2D2A26;
+}
+
+body {
+  font-family: var(--font-body);
+}
